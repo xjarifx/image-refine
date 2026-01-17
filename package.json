@@ -1,0 +1,25 @@
+{
+  "name": "image-refine",
+  "version": "1.0.0",
+  "description": "Image processing tool with face detection, auto-crop and scaling features",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server -p 8080 -o",
+    "dev": "npx http-server -p 8080"
+  },
+  "keywords": [
+    "image-processing",
+    "face-detection",
+    "crop",
+    "scale"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "face-api.js": "^0.22.2",
+    "jszip": "^3.10.1"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
